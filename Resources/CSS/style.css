@@ -4,4 +4,43 @@ button {
 
 html {
     background-image: url("../Images/blackbrickbackdrop.jpg");
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+li>a {
+    font-size: 2em;
+    background-color: ;
+    color: whitesmoke;
+    display: block;
+    border: 0.1em whitesmoke solid;
+    border-radius: 0.5em;
+}
+
+li {
+    margin: 3em;
+}
+
+li>a:hover {
+    color: chartreuse;
+    border: 0.1em chartreuse solid;
 }
